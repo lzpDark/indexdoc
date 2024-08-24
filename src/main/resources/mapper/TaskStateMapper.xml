@@ -1,0 +1,12 @@
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.github.lzpdark.indexdoc.mapper.TaskStateMapper">
+    <select id="getIdFromName" resultType="integer">
+        select id from task_state where name = #{name} limit 1
+    </select>
+    <select id="getNameFromId" resultType="string">
+        select name from task_state where id = #{id} limit 1
+    </select>
+</mapper>

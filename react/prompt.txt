@@ -1,0 +1,18 @@
+I'm going to write a react app.
+
+There're 3 pages:
+1. route page
+2. manage page
+3. search page
+
+#### route page:
+only 2 buttons, route page to 'manage page' or 'search page' when click it
+
+#### manage page:
+there's a list view contains a list of 'url' items
+users can add an item into list and remove an item from list
+'url' item contains properties named url as string type, when add item, there should be a dialog to pop up and click ok to add it.
+
+### search page
+this page contains two part, part one contains 'input text' and 'search button';
+part 2 contains many card view layout as grid layout, in each card there's image and name inside it.
